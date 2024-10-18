@@ -1,5 +1,6 @@
 FROM cimg/rust:1.73-node
 
+
 RUN rustup --version; \
     cargo --version; \
     rustc --version; 
